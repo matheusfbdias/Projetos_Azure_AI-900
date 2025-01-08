@@ -1,2 +1,22 @@
 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
+O teste inicial tem a finalidade de testar os recursos do Estúdio de Visão da IA do Azure e para criar um recurso é necessário entrar no portal da Azure e clicar em IA + Machine Learning, em seguida, é só escolher a opção Serviços Cognitivos (se a página estiver em português) ou Azure AI Services (se a página estiver em inglês), para então clicar em Criar(Criate).
+OBS: Esse procedimento fará uma ponte do serviço de inteligência artificial na assinatura do Azure para o Visual Studio (Estúdio de Visão).
+
+A subscrição já vem preenchida e não há necessidade de alterar, então basta escolher(caso já tenha feito) ou criar(caso ainda precise criar) o Resource Group (Grupo de recursos), depois é só escolher a região e um nome de sua preferência. Em seguida, ir em Pricing tier (Tipo de preço) e selecionar Standard S0, para então ticar a caixinha confirmando que leu e compreendeu os termos de aviso de responsabilidade da IA, para então Examinar + criar (Review + create) para que o recurso seja criado.
+
+Findada essa primeira parte, é necessário acessar o portal de visão (portal.vision.cognitive.azure.com/gallery/featured) e selecionar o recurso que acabou de criar. Após selecionar, fechar no x no canto superior direito da tela, o que o fará voltar à tela inicial para que então, escolha o estúdio em que vai trabalhar.
+Neste recurso, o primeiro teste foi feito com detecção de face, foi clicado em Face e foi possível enviar as imagens anexadas no arquivo inputs, nas quais a IA conseguiu identificar o atributo da imagem e já trazer o código JSON, descrevendo as imagens e mostrando o código.
+
+
+
+
+
+A segunda parte do teste, analisou textos presentes em imagens, identificando as palavras e dando o código JSON. Tal funcionalidade, permite analisar documentos através do reconhecimentos de caracteres, que extrai das imagens tudo que é texto, independente se é letra escrita à mão ou impressa. Para fazer esse teste, basta ir em Optical character recognition e enviar a foto que quer analisar.
+
+
+
+
+A terceira parte, por sua vez, se deu com a análise de imagens, tendo cenários identificados. Para realizar o teste, basta voltar a página inicial do vision studio, clicar em Image analysis, em seguida, em Add captions to images, para então enviar a foto que deseja analisar e receber a análise, junto com o código JSON.
+
+
